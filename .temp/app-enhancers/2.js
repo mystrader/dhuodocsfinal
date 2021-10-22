@@ -1,2 +1,1 @@
-import "E:\\WORK\\ENGINEERING\\PROJETOS\\@DOCS\\docsdhuofinal\\docs\\node_modules\\@vuepress\\plugin-nprogress\\enhanceAppFile.js"
-export default {}
+export { default } from "E:\\WORK\\ENGINEERING\\PROJETOS\\@DOCS\\docsdhuofinal\\docs\\node_modules\\@vuepress\\plugin-back-to-top\\enhanceAppFile.js"

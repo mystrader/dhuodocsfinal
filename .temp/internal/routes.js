@@ -9,16 +9,76 @@ import GlobalLayout from "E:\\WORK\\ENGINEERING\\PROJETOS\\@DOCS\\docsdhuofinal\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-0d746c4b",
-    path: "/config/",
+    name: "v-c4c29ca6",
+    path: "/en/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0d746c4b").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-c4c29ca6").then(next)
     },
   },
   {
-    path: "/config/index.html",
-    redirect: "/config/"
+    path: "/en/index.html",
+    redirect: "/en/"
+  },
+  {
+    name: "v-b69bc644",
+    path: "/en/links/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-b69bc644").then(next)
+    },
+  },
+  {
+    path: "/en/links/index.html",
+    redirect: "/en/links/"
+  },
+  {
+    name: "v-12c1382e",
+    path: "/en/links/ambientesdhuo.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-12c1382e").then(next)
+    },
+  },
+  {
+    name: "v-7173f7e4",
+    path: "/en/manual/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7173f7e4").then(next)
+    },
+  },
+  {
+    path: "/en/manual/index.html",
+    redirect: "/en/manual/"
+  },
+  {
+    name: "v-0ccfe4b3",
+    path: "/en/manual/adb2c.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0ccfe4b3").then(next)
+    },
+  },
+  {
+    name: "v-a48b3e8a",
+    path: "/en/manual/adb2cazure.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-a48b3e8a").then(next)
+    },
+  },
+  {
+    name: "v-2d01fbfe",
+    path: "/links/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2d01fbfe").then(next)
+    },
+  },
+  {
+    path: "/links/index.html",
+    redirect: "/links/"
   },
   {
     name: "v-66b5daec",
@@ -33,6 +93,22 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-49970026",
+    path: "/links/ambientesdhuo.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-49970026").then(next)
+    },
+  },
+  {
+    name: "v-6a737466",
+    path: "/links/sobrevuepress.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6a737466").then(next)
+    },
+  },
+  {
     name: "v-542a63cb",
     path: "/manual/",
     component: GlobalLayout,
@@ -45,11 +121,19 @@ export const routes = [
     redirect: "/manual/"
   },
   {
-    name: "v-0334d4b8",
-    path: "/manual/using-vue.html",
+    name: "v-0d10853e",
+    path: "/manual/adb2c.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0334d4b8").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-0d10853e").then(next)
+    },
+  },
+  {
+    name: "v-ea3b2dc0",
+    path: "/manual/adb2cazure.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-ea3b2dc0").then(next)
     },
   },
   {

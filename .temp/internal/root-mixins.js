@@ -3,8 +3,8 @@
  */
 import m0 from "E:\\WORK\\ENGINEERING\\PROJETOS\\@DOCS\\docsdhuofinal\\docs\\node_modules\\@vuepress\\core\\lib\\client\\root-mixins\\updateMeta.js"
 import m1 from "E:\\WORK\\ENGINEERING\\PROJETOS\\@DOCS\\docsdhuofinal\\docs\\node_modules\\@vuepress\\plugin-active-header-links\\clientRootMixin.js"
-import m2 from "E:\\WORK\\ENGINEERING\\PROJETOS\\@DOCS\\docsdhuofinal\\docs\\node_modules\\@vuepress\\plugin-nprogress\\clientRootMixin.js"
-import m3 from "E:\\WORK\\ENGINEERING\\PROJETOS\\@DOCS\\docsdhuofinal\\docs\\node_modules\\@vuepress\\plugin-medium-zoom\\clientRootMixin.js"
+import m2 from "E:\\WORK\\ENGINEERING\\PROJETOS\\@DOCS\\docsdhuofinal\\docs\\node_modules\\@vuepress\\plugin-medium-zoom\\clientRootMixin.js"
+import m3 from "E:\\WORK\\ENGINEERING\\PROJETOS\\@DOCS\\docsdhuofinal\\docs\\node_modules\\@vuepress\\plugin-nprogress\\clientRootMixin.js"
 
 export default [
   m0,

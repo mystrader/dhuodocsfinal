@@ -30,14 +30,44 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "DhuoDocs",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "https://storage.googleapis.com/strapi_prd/hero_75b7d7fb43/hero_75b7d7fb43.png",
+        "title": "DhuoDocs",
+        "tagline": "A powerful system to manage your APIs",
+        "actionText": "Start →",
+        "actionLink": "/manual/",
+        "features": [
+          {
+            "title": "All in one Place",
+            "details": "Minimal setup with markdown-centered project structure helps you focus on writing."
+          },
+          {
+            "title": "Security for APIs",
+            "details": "Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue."
+          },
+          {
+            "title": "Unique Feature",
+            "details": "VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded."
+          }
+        ],
+        "footer": "Made by  with ❤️ Engineers Productions"
+      },
+      "regularPath": "/en/",
+      "relativePath": "en/index.md",
+      "key": "v-c4c29ca6",
+      "path": "/en/"
+    },
+    {
       "title": "Config",
       "frontmatter": {
         "sidebar": "auto"
       },
-      "regularPath": "/config/",
-      "relativePath": "config/README.md",
-      "key": "v-0d746c4b",
-      "path": "/config/",
+      "regularPath": "/en/links/",
+      "relativePath": "en/links/README.md",
+      "key": "v-b69bc644",
+      "path": "/en/links/",
       "headers": [
         {
           "level": 2,
@@ -49,8 +79,339 @@ export const siteData = {
           "title": "bar",
           "slug": "bar"
         }
-      ],
-      "lastUpdated": "10/21/2021, 9:46:43 PM"
+      ]
+    },
+    {
+      "title": "Ambientes dhuo",
+      "frontmatter": {},
+      "regularPath": "/en/links/ambientesdhuo.html",
+      "relativePath": "en/links/ambientesdhuo.md",
+      "key": "v-12c1382e",
+      "path": "/en/links/ambientesdhuo.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Ferramentas",
+          "slug": "ferramentas"
+        }
+      ]
+    },
+    {
+      "title": "Instalação On Premise",
+      "frontmatter": {},
+      "regularPath": "/en/manual/",
+      "relativePath": "en/manual/README.md",
+      "key": "v-7173f7e4",
+      "path": "/en/manual/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Introdução 🎉",
+          "slug": "introducao"
+        },
+        {
+          "level": 2,
+          "title": "Módulos e versões",
+          "slug": "modulos-e-versoes"
+        },
+        {
+          "level": 2,
+          "title": "Repositórios e acessos",
+          "slug": "repositorios-e-acessos"
+        },
+        {
+          "level": 2,
+          "title": "Pré-requisitos",
+          "slug": "pre-requisitos"
+        },
+        {
+          "level": 3,
+          "title": "Infraestrutura",
+          "slug": "infraestrutura"
+        },
+        {
+          "level": 3,
+          "title": "Ferramentas",
+          "slug": "ferramentas"
+        },
+        {
+          "level": 3,
+          "title": "Endereços de domínio",
+          "slug": "enderecos-de-dominio"
+        },
+        {
+          "level": 3,
+          "title": "Google storage buckets",
+          "slug": "google-storage-buckets"
+        },
+        {
+          "level": 3,
+          "title": "Google reCAPTCHA",
+          "slug": "google-recaptcha"
+        },
+        {
+          "level": 2,
+          "title": "Azure AD B2C",
+          "slug": "azure-ad-b2c"
+        },
+        {
+          "level": 2,
+          "title": "Instalação dhuo",
+          "slug": "instalacao-dhuo"
+        },
+        {
+          "level": 3,
+          "title": "Back-ends",
+          "slug": "back-ends"
+        },
+        {
+          "level": 3,
+          "title": "Front-ends",
+          "slug": "front-ends"
+        },
+        {
+          "level": 3,
+          "title": "CMS (dhuo-strapi)",
+          "slug": "cms-dhuo-strapi"
+        },
+        {
+          "level": 3,
+          "title": "Kong (back-end gateway)",
+          "slug": "kong-back-end-gateway"
+        },
+        {
+          "level": 3,
+          "title": "Setup strapi",
+          "slug": "setup-strapi"
+        },
+        {
+          "level": 3,
+          "title": "Setup mongodb",
+          "slug": "setup-mongodb"
+        }
+      ]
+    },
+    {
+      "title": "AD B2C",
+      "frontmatter": {},
+      "regularPath": "/en/manual/adb2c.html",
+      "relativePath": "en/manual/adb2c.md",
+      "key": "v-0ccfe4b3",
+      "path": "/en/manual/adb2c.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Pre-requisitos",
+          "slug": "pre-requisitos"
+        },
+        {
+          "level": 2,
+          "title": "Provisionamento Tenant B2C",
+          "slug": "provisionamento-tenant-b2c"
+        },
+        {
+          "level": 2,
+          "title": "Configuração extensão vscode",
+          "slug": "configuracao-extensao-vscode"
+        },
+        {
+          "level": 2,
+          "title": "Configuração app.settings.json",
+          "slug": "configuracao-app-settings-json"
+        },
+        {
+          "level": 2,
+          "title": "Build",
+          "slug": "build"
+        },
+        {
+          "level": 2,
+          "title": "Deploy",
+          "slug": "deploy"
+        },
+        {
+          "level": 2,
+          "title": "Configurações DHUO",
+          "slug": "configuracoes-dhuo"
+        },
+        {
+          "level": 3,
+          "title": "AD B2C Custom UI (adb2c-login-estatico)",
+          "slug": "ad-b2c-custom-ui-adb2c-login-estatico"
+        }
+      ]
+    },
+    {
+      "title": "AD B2C - Provisionamento Azure",
+      "frontmatter": {},
+      "regularPath": "/en/manual/adb2cazure.html",
+      "relativePath": "en/manual/adb2cazure.md",
+      "key": "v-a48b3e8a",
+      "path": "/en/manual/adb2cazure.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Tabela de propriedades",
+          "slug": "tabela-de-propriedades"
+        },
+        {
+          "level": 2,
+          "title": "Tenant padrão (Default directory)",
+          "slug": "tenant-padrao-default-directory"
+        },
+        {
+          "level": 3,
+          "title": "Obtenção do Primary domain",
+          "slug": "obtencao-do-primary-domain"
+        },
+        {
+          "level": 3,
+          "title": "Registro de Resource providers",
+          "slug": "registro-de-resource-providers"
+        },
+        {
+          "level": 3,
+          "title": "Criação de Resource group",
+          "slug": "criacao-de-resource-group"
+        },
+        {
+          "level": 3,
+          "title": "Cadastro do tenant b2c",
+          "slug": "cadastro-do-tenant-b2c"
+        },
+        {
+          "level": 3,
+          "title": "App Insights",
+          "slug": "app-insights"
+        },
+        {
+          "level": 3,
+          "title": "App para login de usuários no Azure AD (não B2C) - apione-internal-user",
+          "slug": "app-para-login-de-usuarios-no-azure-ad-nao-b2c-apione-internal-user"
+        },
+        {
+          "level": 2,
+          "title": "Tenant B2C",
+          "slug": "tenant-b2c"
+        },
+        {
+          "level": 3,
+          "title": "Obtenção do Primary domain e Tenant ID",
+          "slug": "obtencao-do-primary-domain-e-tenant-id"
+        },
+        {
+          "level": 3,
+          "title": "App MS Graph",
+          "slug": "app-ms-graph"
+        },
+        {
+          "level": 3,
+          "title": "App IdentityExperienceFramework",
+          "slug": "app-identityexperienceframework"
+        },
+        {
+          "level": 3,
+          "title": "App ProxyIdentityExperienceFramework",
+          "slug": "app-proxyidentityexperienceframework"
+        },
+        {
+          "level": 3,
+          "title": "App apione",
+          "slug": "app-apione"
+        },
+        {
+          "level": 3,
+          "title": "App apione viaapi-web",
+          "slug": "app-apione-viaapi-web"
+        },
+        {
+          "level": 3,
+          "title": "App apione apimanagement-devportal-web",
+          "slug": "app-apione-apimanagement-devportal-web"
+        },
+        {
+          "level": 3,
+          "title": "app b2c-extensions-app",
+          "slug": "app-b2c-extensions-app"
+        },
+        {
+          "level": 2,
+          "title": "Configuração Identity Experience Framework",
+          "slug": "configuracao-identity-experience-framework"
+        },
+        {
+          "level": 3,
+          "title": "B2C1AAdminClientEncryptionKeyContainer",
+          "slug": "b2c-1a-adminclientencryptionkeycontainer"
+        },
+        {
+          "level": 3,
+          "title": "B2C1ATokenSigningKeyContainer",
+          "slug": "b2c-1a-tokensigningkeycontainer"
+        },
+        {
+          "level": 3,
+          "title": "B2C1ATokenEncryptionKeyContainer",
+          "slug": "b2c-1a-tokenencryptionkeycontainer"
+        },
+        {
+          "level": 3,
+          "title": "B2C1AGoogleSecret",
+          "slug": "b2c-1a-googlesecret"
+        },
+        {
+          "level": 3,
+          "title": "B2C1AFacebookSecret",
+          "slug": "b2c-1a-facebooksecret"
+        },
+        {
+          "level": 3,
+          "title": "B2C1AGetUserGroupsRestApiUsername",
+          "slug": "b2c-1a-getusergroupsrestapiusername"
+        },
+        {
+          "level": 3,
+          "title": "B2C1AGetUserGroupsRestApiPassword",
+          "slug": "b2c-1a-getusergroupsrestapipassword"
+        },
+        {
+          "level": 3,
+          "title": "B2C1AAzureADSecret",
+          "slug": "b2c-1a-azureadsecret"
+        },
+        {
+          "level": 2,
+          "title": "Roles",
+          "slug": "roles"
+        },
+        {
+          "level": 2,
+          "title": "Groups",
+          "slug": "groups"
+        }
+      ]
+    },
+    {
+      "title": "Lista de Links",
+      "frontmatter": {
+        "sidebar": "auto"
+      },
+      "regularPath": "/links/",
+      "relativePath": "links/README.md",
+      "key": "v-2d01fbfe",
+      "path": "/links/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Ambientes Dhuo \t😀",
+          "slug": "ambientes-dhuo"
+        },
+        {
+          "level": 2,
+          "title": "Importantes para markdown",
+          "slug": "importantes-para-markdown"
+        }
+      ]
     },
     {
       "title": "DhuoDocs",
@@ -58,30 +419,70 @@ export const siteData = {
         "home": true,
         "heroImage": "https://storage.googleapis.com/strapi_prd/hero_75b7d7fb43/hero_75b7d7fb43.png",
         "title": "DhuoDocs",
-        "tagline": "Documentação para Dhuo",
-        "actionText": "Começar →",
+        "tagline": "Um poderoso sistema para gerenciar suas APIs",
+        "actionText": "Começar  →",
         "actionLink": "/manual/",
         "features": [
           {
-            "title": "Tudo em um local só",
-            "details": "Minimal setup with markdown-centered project structure helps you focus on writing."
+            "title": "Tudo em um só local",
+            "details": "A configuração mínima com estrutura de projeto centrada em markdown ajuda você a se concentrar na escrita."
           },
           {
-            "title": "Segurança para sua API",
-            "details": "Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue."
+            "title": "Segurança para suas APIs",
+            "details": "Aproveite a experiência de desenvolvimento do Vue + webpack, use os componentes do Vue no markdown e desenvolva temas personalizados com o Vue."
           },
           {
-            "title": "Features únicas",
-            "details": "VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded."
+            "title": "Características únicas",
+            "details": "O sistema tem muitos funcionalidades importantes para você que precisa geranciar diversas APIs ao mesmo tempo"
           }
         ],
-        "footer": "Made by  with ❤️ Eng"
+        "footer": "Feito com ❤️ Engineers Productions"
       },
       "regularPath": "/",
       "relativePath": "index.md",
       "key": "v-66b5daec",
       "path": "/",
-      "lastUpdated": "10/21/2021, 11:46:21 PM"
+      "lastUpdated": "22/10/2021 01:21:12"
+    },
+    {
+      "title": "Ambientes dhuo",
+      "frontmatter": {},
+      "regularPath": "/links/ambientesdhuo.html",
+      "relativePath": "links/ambientesdhuo.md",
+      "key": "v-49970026",
+      "path": "/links/ambientesdhuo.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "PROD, DEV e RC",
+          "slug": "prod-dev-e-rc"
+        },
+        {
+          "level": 2,
+          "title": "Ferramentas",
+          "slug": "ferramentas"
+        }
+      ]
+    },
+    {
+      "title": "O que é esse tal de VUEPRESS ?",
+      "frontmatter": {},
+      "regularPath": "/links/sobrevuepress.html",
+      "relativePath": "links/sobrevuepress.md",
+      "key": "v-6a737466",
+      "path": "/links/sobrevuepress.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Vuepress: Surgimento",
+          "slug": "vuepress-surgimento"
+        },
+        {
+          "level": 2,
+          "title": "Sites estáticos (Prerender)",
+          "slug": "sites-estaticos-prerender"
+        }
+      ]
     },
     {
       "title": "Instalação On Premise",
@@ -93,7 +494,7 @@ export const siteData = {
       "headers": [
         {
           "level": 2,
-          "title": "Introdução",
+          "title": "Introdução 🎉",
           "slug": "introducao"
         },
         {
@@ -177,28 +578,207 @@ export const siteData = {
           "slug": "setup-mongodb"
         }
       ],
-      "lastUpdated": "10/22/2021, 1:12:53 AM"
+      "lastUpdated": "22/10/2021 01:12:53"
     },
     {
-      "title": "Using Vue in Markdown",
+      "title": "AD B2C",
       "frontmatter": {},
-      "regularPath": "/manual/using-vue.html",
-      "relativePath": "manual/using-vue.md",
-      "key": "v-0334d4b8",
-      "path": "/manual/using-vue.html",
+      "regularPath": "/manual/adb2c.html",
+      "relativePath": "manual/adb2c.md",
+      "key": "v-0d10853e",
+      "path": "/manual/adb2c.html",
       "headers": [
         {
           "level": 2,
-          "title": "Browser API Access Restrictions",
-          "slug": "browser-api-access-restrictions"
+          "title": "Pre-requisitos",
+          "slug": "pre-requisitos"
         },
         {
           "level": 2,
-          "title": "Parte 2",
-          "slug": "parte-2"
+          "title": "Provisionamento Tenant B2C",
+          "slug": "provisionamento-tenant-b2c"
+        },
+        {
+          "level": 2,
+          "title": "Configuração extensão vscode",
+          "slug": "configuracao-extensao-vscode"
+        },
+        {
+          "level": 2,
+          "title": "Configuração app.settings.json",
+          "slug": "configuracao-app-settings-json"
+        },
+        {
+          "level": 2,
+          "title": "Build",
+          "slug": "build"
+        },
+        {
+          "level": 2,
+          "title": "Deploy",
+          "slug": "deploy"
+        },
+        {
+          "level": 2,
+          "title": "Configurações DHUO",
+          "slug": "configuracoes-dhuo"
+        },
+        {
+          "level": 3,
+          "title": "AD B2C Custom UI (adb2c-login-estatico)",
+          "slug": "ad-b2c-custom-ui-adb2c-login-estatico"
         }
-      ],
-      "lastUpdated": "10/22/2021, 12:52:00 AM"
+      ]
+    },
+    {
+      "title": "AD B2C - Provisionamento Azure",
+      "frontmatter": {},
+      "regularPath": "/manual/adb2cazure.html",
+      "relativePath": "manual/adb2cazure.md",
+      "key": "v-ea3b2dc0",
+      "path": "/manual/adb2cazure.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Tabela de propriedades",
+          "slug": "tabela-de-propriedades"
+        },
+        {
+          "level": 2,
+          "title": "Tenant padrão (Default directory)",
+          "slug": "tenant-padrao-default-directory"
+        },
+        {
+          "level": 3,
+          "title": "Obtenção do Primary domain",
+          "slug": "obtencao-do-primary-domain"
+        },
+        {
+          "level": 3,
+          "title": "Registro de Resource providers",
+          "slug": "registro-de-resource-providers"
+        },
+        {
+          "level": 3,
+          "title": "Criação de Resource group",
+          "slug": "criacao-de-resource-group"
+        },
+        {
+          "level": 3,
+          "title": "Cadastro do tenant b2c",
+          "slug": "cadastro-do-tenant-b2c"
+        },
+        {
+          "level": 3,
+          "title": "App Insights",
+          "slug": "app-insights"
+        },
+        {
+          "level": 3,
+          "title": "App para login de usuários no Azure AD (não B2C) - apione-internal-user",
+          "slug": "app-para-login-de-usuarios-no-azure-ad-nao-b2c-apione-internal-user"
+        },
+        {
+          "level": 2,
+          "title": "Tenant B2C",
+          "slug": "tenant-b2c"
+        },
+        {
+          "level": 3,
+          "title": "Obtenção do Primary domain e Tenant ID",
+          "slug": "obtencao-do-primary-domain-e-tenant-id"
+        },
+        {
+          "level": 3,
+          "title": "App MS Graph",
+          "slug": "app-ms-graph"
+        },
+        {
+          "level": 3,
+          "title": "App IdentityExperienceFramework",
+          "slug": "app-identityexperienceframework"
+        },
+        {
+          "level": 3,
+          "title": "App ProxyIdentityExperienceFramework",
+          "slug": "app-proxyidentityexperienceframework"
+        },
+        {
+          "level": 3,
+          "title": "App apione",
+          "slug": "app-apione"
+        },
+        {
+          "level": 3,
+          "title": "App apione viaapi-web",
+          "slug": "app-apione-viaapi-web"
+        },
+        {
+          "level": 3,
+          "title": "App apione apimanagement-devportal-web",
+          "slug": "app-apione-apimanagement-devportal-web"
+        },
+        {
+          "level": 3,
+          "title": "app b2c-extensions-app",
+          "slug": "app-b2c-extensions-app"
+        },
+        {
+          "level": 2,
+          "title": "Configuração Identity Experience Framework",
+          "slug": "configuracao-identity-experience-framework"
+        },
+        {
+          "level": 3,
+          "title": "B2C1AAdminClientEncryptionKeyContainer",
+          "slug": "b2c-1a-adminclientencryptionkeycontainer"
+        },
+        {
+          "level": 3,
+          "title": "B2C1ATokenSigningKeyContainer",
+          "slug": "b2c-1a-tokensigningkeycontainer"
+        },
+        {
+          "level": 3,
+          "title": "B2C1ATokenEncryptionKeyContainer",
+          "slug": "b2c-1a-tokenencryptionkeycontainer"
+        },
+        {
+          "level": 3,
+          "title": "B2C1AGoogleSecret",
+          "slug": "b2c-1a-googlesecret"
+        },
+        {
+          "level": 3,
+          "title": "B2C1AFacebookSecret",
+          "slug": "b2c-1a-facebooksecret"
+        },
+        {
+          "level": 3,
+          "title": "B2C1AGetUserGroupsRestApiUsername",
+          "slug": "b2c-1a-getusergroupsrestapiusername"
+        },
+        {
+          "level": 3,
+          "title": "B2C1AGetUserGroupsRestApiPassword",
+          "slug": "b2c-1a-getusergroupsrestapipassword"
+        },
+        {
+          "level": 3,
+          "title": "B2C1AAzureADSecret",
+          "slug": "b2c-1a-azureadsecret"
+        },
+        {
+          "level": 2,
+          "title": "Roles",
+          "slug": "roles"
+        },
+        {
+          "level": 2,
+          "title": "Groups",
+          "slug": "groups"
+        }
+      ]
     }
   ],
   "themeConfig": {
@@ -213,8 +793,8 @@ export const siteData = {
         "link": "/manual/"
       },
       {
-        "text": "Produtos",
-        "link": "/produtos/"
+        "text": "Links",
+        "link": "/links/"
       },
       {
         "text": "Engineering",
@@ -228,10 +808,36 @@ export const siteData = {
           "collapsable": true,
           "children": [
             "",
-            "using-vue"
+            "adb2cazure",
+            "adb2c"
+          ]
+        }
+      ],
+      "/links/": [
+        {
+          "title": "Ambientes DHUO",
+          "collapsable": true,
+          "children": [
+            "",
+            "ambientesdhuo",
+            "sobrevuepress"
           ]
         }
       ]
+    }
+  },
+  "locales": {
+    "/": {
+      "lang": "pt-BR",
+      "title": "",
+      "description": "Um poderoso sistema para gerenciar suas APIs",
+      "path": "/"
+    },
+    "/en/": {
+      "lang": "en-US",
+      "title": "",
+      "description": "A powerful system to manage your APIs",
+      "path": "/en/"
     }
   }
 }

@@ -41,8 +41,8 @@ module.exports = {
         link: "/manual/",
       },
       {
-        text: "Produtos",
-        link: "/produtos/",
+        text: "Links",
+        link: "/links/",
       },
       {
         text: "Engineering",
@@ -54,20 +54,46 @@ module.exports = {
         {
           title: "Manuais",
           collapsable: true,
-          children: ["", "using-vue"],
+          children: ["", "adb2cazure", "adb2c"],
+        },
+      ],
+      "/links/": [
+        {
+          title: "Ambientes DHUO",
+          collapsable: true,
+          children: ["", "ambientesdhuo", "sobrevuepress"],
         },
       ],
     },
   },
-  configureWebpack: {
-    resolve: {
-      alias: {
-        "@alias": "/docs/src/assets/images/",
-      },
+  locales: {
+    "/": {
+      lang: "pt-BR",
+      title: "",
+      description: "Um poderoso sistema para gerenciar suas APIs",
     },
+    "/en/": {
+      lang: "en-US",
+      title: "",
+      description: "A powerful system to manage your APIs",
+    },
+  },
+  markdown: {
+    lineNumbers: true,
   },
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: ["@vuepress/plugin-back-to-top", "@vuepress/plugin-medium-zoom"],
+  plugins: [
+    "@vuepress/plugin-back-to-top",
+    "@vuepress/plugin-medium-zoom",
+    "@vuepress/search",
+    "@vuepress/nprogress",
+    "@vuepress/pwa",
+    {
+      searchMaxSuggestions: 10,
+      serviceWorker: true,
+      updatePopup: true,
+    },
+  ],
 };
