@@ -60,7 +60,7 @@ export const siteData = {
         "title": "DhuoDocs",
         "tagline": "Documentação para Dhuo",
         "actionText": "Começar →",
-        "actionLink": "/guide/",
+        "actionLink": "/manual/",
         "features": [
           {
             "title": "Tudo em um local só",
@@ -177,7 +177,7 @@ export const siteData = {
           "slug": "setup-mongodb"
         }
       ],
-      "lastUpdated": "10/22/2021, 1:08:28 AM"
+      "lastUpdated": "10/22/2021, 1:12:53 AM"
     },
     {
       "title": "Using Vue in Markdown",
