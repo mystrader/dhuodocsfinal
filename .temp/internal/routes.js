@@ -69,18 +69,6 @@ export const routes = [
     },
   },
   {
-    name: "v-2d01fbfe",
-    path: "/links/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2d01fbfe").then(next)
-    },
-  },
-  {
-    path: "/links/index.html",
-    redirect: "/links/"
-  },
-  {
     name: "v-66b5daec",
     path: "/",
     component: GlobalLayout,
@@ -91,6 +79,18 @@ export const routes = [
   {
     path: "/index.html",
     redirect: "/"
+  },
+  {
+    name: "v-2d01fbfe",
+    path: "/links/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2d01fbfe").then(next)
+    },
+  },
+  {
+    path: "/links/index.html",
+    redirect: "/links/"
   },
   {
     name: "v-49970026",

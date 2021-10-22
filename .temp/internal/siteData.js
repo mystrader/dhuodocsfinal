@@ -57,7 +57,8 @@ export const siteData = {
       "regularPath": "/en/",
       "relativePath": "en/index.md",
       "key": "v-c4c29ca6",
-      "path": "/en/"
+      "path": "/en/",
+      "lastUpdated": "10/22/2021, 10:10:25 AM"
     },
     {
       "title": "Config",
@@ -79,7 +80,8 @@ export const siteData = {
           "title": "bar",
           "slug": "bar"
         }
-      ]
+      ],
+      "lastUpdated": "10/22/2021, 10:10:25 AM"
     },
     {
       "title": "Ambientes dhuo",
@@ -94,7 +96,8 @@ export const siteData = {
           "title": "Ferramentas",
           "slug": "ferramentas"
         }
-      ]
+      ],
+      "lastUpdated": "10/22/2021, 10:10:25 AM"
     },
     {
       "title": "Instalação On Premise",
@@ -189,7 +192,8 @@ export const siteData = {
           "title": "Setup mongodb",
           "slug": "setup-mongodb"
         }
-      ]
+      ],
+      "lastUpdated": "10/22/2021, 10:10:25 AM"
     },
     {
       "title": "AD B2C",
@@ -239,7 +243,8 @@ export const siteData = {
           "title": "AD B2C Custom UI (adb2c-login-estatico)",
           "slug": "ad-b2c-custom-ui-adb2c-login-estatico"
         }
-      ]
+      ],
+      "lastUpdated": "10/22/2021, 10:10:25 AM"
     },
     {
       "title": "AD B2C - Provisionamento Azure",
@@ -389,29 +394,8 @@ export const siteData = {
           "title": "Groups",
           "slug": "groups"
         }
-      ]
-    },
-    {
-      "title": "Lista de Links",
-      "frontmatter": {
-        "sidebar": "auto"
-      },
-      "regularPath": "/links/",
-      "relativePath": "links/README.md",
-      "key": "v-2d01fbfe",
-      "path": "/links/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Ambientes Dhuo \t😀",
-          "slug": "ambientes-dhuo"
-        },
-        {
-          "level": 2,
-          "title": "Importantes para markdown",
-          "slug": "importantes-para-markdown"
-        }
-      ]
+      ],
+      "lastUpdated": "10/22/2021, 10:10:25 AM"
     },
     {
       "title": "DhuoDocs",
@@ -442,7 +426,35 @@ export const siteData = {
       "relativePath": "index.md",
       "key": "v-66b5daec",
       "path": "/",
-      "lastUpdated": "22/10/2021 01:21:12"
+      "lastUpdated": "22/10/2021 10:10:25"
+    },
+    {
+      "title": "Lista de Links",
+      "frontmatter": {
+        "sidebar": "auto"
+      },
+      "regularPath": "/links/",
+      "relativePath": "links/README.md",
+      "key": "v-2d01fbfe",
+      "path": "/links/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Ambientes Dhuo \t😀",
+          "slug": "ambientes-dhuo"
+        },
+        {
+          "level": 2,
+          "title": "Importantes para markdown",
+          "slug": "importantes-para-markdown"
+        },
+        {
+          "level": 2,
+          "title": "Participação do grupo em lives",
+          "slug": "participacao-do-grupo-em-lives"
+        }
+      ],
+      "lastUpdated": "22/10/2021 10:10:25"
     },
     {
       "title": "Ambientes dhuo",
@@ -462,7 +474,8 @@ export const siteData = {
           "title": "Ferramentas",
           "slug": "ferramentas"
         }
-      ]
+      ],
+      "lastUpdated": "22/10/2021 10:10:25"
     },
     {
       "title": "O que é esse tal de VUEPRESS ?",
@@ -482,7 +495,8 @@ export const siteData = {
           "title": "Sites estáticos (Prerender)",
           "slug": "sites-estaticos-prerender"
         }
-      ]
+      ],
+      "lastUpdated": "22/10/2021 10:10:25"
     },
     {
       "title": "Instalação On Premise",
@@ -578,7 +592,7 @@ export const siteData = {
           "slug": "setup-mongodb"
         }
       ],
-      "lastUpdated": "22/10/2021 01:12:53"
+      "lastUpdated": "22/10/2021 10:10:25"
     },
     {
       "title": "AD B2C",
@@ -628,7 +642,8 @@ export const siteData = {
           "title": "AD B2C Custom UI (adb2c-login-estatico)",
           "slug": "ad-b2c-custom-ui-adb2c-login-estatico"
         }
-      ]
+      ],
+      "lastUpdated": "22/10/2021 10:10:25"
     },
     {
       "title": "AD B2C - Provisionamento Azure",
@@ -778,7 +793,8 @@ export const siteData = {
           "title": "Groups",
           "slug": "groups"
         }
-      ]
+      ],
+      "lastUpdated": "22/10/2021 10:10:25"
     }
   ],
   "themeConfig": {
