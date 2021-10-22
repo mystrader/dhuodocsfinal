@@ -200,6 +200,10 @@ kubectl create secret generic gdhuo --from-env-file=.env -n <namespace>
 kubectl apply -f <diretório>
 ```
 
+https://user-images.githubusercontent.com/191412/138390972-c558b850-b8d3-4acb-b9f3-058649826429.mp4
+
+
+
 ### Front-ends
 Passos referentes aos módulos
 
