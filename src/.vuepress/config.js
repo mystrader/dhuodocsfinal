@@ -30,11 +30,11 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: "",
-    editLinks: false,
-    docsDir: "",
-    editLinkText: "",
-    lastUpdated: false,
+    repo: "https://github.com/mystrader/dhuodocsfinal.git",
+    editLinks: true,
+    docsDir: "docs",
+    editLinkText: "Editar página",
+    lastUpdated: true,
     nav: [
       {
         text: "Guide",
