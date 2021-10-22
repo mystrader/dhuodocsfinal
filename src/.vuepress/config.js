@@ -37,29 +37,35 @@ module.exports = {
     lastUpdated: true,
     nav: [
       {
-        text: "Guide",
-        link: "/guide/",
+        text: "Manuais",
+        link: "/manual/",
       },
       {
-        text: "Config",
-        link: "/config/",
+        text: "Produtos",
+        link: "/produtos/",
       },
       {
-        text: "VuePress",
-        link: "https://v1.vuepress.vuejs.org",
+        text: "Engineering",
+        link: "https://www.engdb.com.br/",
       },
     ],
     sidebar: {
-      "/guide/": [
+      "/manual/": [
         {
-          title: "Guide",
+          title: "Manuais",
           collapsable: true,
           children: ["", "using-vue"],
         },
       ],
     },
   },
-
+  configureWebpack: {
+    resolve: {
+      alias: {
+        "@alias": "/docs/src/assets/images/",
+      },
+    },
+  },
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
