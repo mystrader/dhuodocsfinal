@@ -9,7 +9,7 @@
   },
   "repository": "https://github.com/mystrader/dhuodocs.git/docsdhuofinal",
   "scripts": {
-    "dev": "vuepress dev src",
+    "dev": "vuepress dev src --host localhost --temp .temp",
     "build": "vuepress build src"
   },
   "license": "MIT",

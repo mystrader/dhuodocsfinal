@@ -4,11 +4,11 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: "Manual de Instalação On Premise",
+  title: "DhuoDocs",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: description,
+  description: "description",
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -23,7 +23,7 @@ module.exports = {
       { name: "apple-mobile-web-app-status-bar-style", content: "black" },
     ],
   ],
-
+  extraWatchFiles: ["src/**/*.md", "src/index.md", "src/**/*.vue"],
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
@@ -31,7 +31,7 @@ module.exports = {
    */
   themeConfig: {
     repo: "https://github.com/mystrader/dhuodocsfinal.git",
-    editLinks: true,
+    editLinks: false,
     docsDir: "docs",
     editLinkText: "Editar página",
     lastUpdated: true,
@@ -53,7 +53,7 @@ module.exports = {
       "/guide/": [
         {
           title: "Guide",
-          collapsable: false,
+          collapsable: true,
           children: ["", "using-vue"],
         },
       ],
