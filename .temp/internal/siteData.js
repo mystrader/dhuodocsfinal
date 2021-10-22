@@ -176,7 +176,8 @@ export const siteData = {
           "title": "Setup mongodb",
           "slug": "setup-mongodb"
         }
-      ]
+      ],
+      "lastUpdated": "10/22/2021, 1:08:28 AM"
     },
     {
       "title": "Using Vue in Markdown",
@@ -196,7 +197,8 @@ export const siteData = {
           "title": "Parte 2",
           "slug": "parte-2"
         }
-      ]
+      ],
+      "lastUpdated": "10/22/2021, 12:52:00 AM"
     }
   ],
   "themeConfig": {

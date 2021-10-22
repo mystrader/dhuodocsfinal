@@ -200,7 +200,8 @@ kubectl create secret generic gdhuo --from-env-file=.env -n <namespace>
 kubectl apply -f <diretório>
 ```
 
-https://user-images.githubusercontent.com/191412/138390972-c558b850-b8d3-4acb-b9f3-058649826429.mp4
+
+
 
 
 
@@ -334,7 +335,12 @@ Após deploy do módulo **dhuo-strapi**,
 2. Cadastre o usuário administrador
 3. Configure as permissões de acesso à api do cms acessando: Settings > USERS & PERMISSIONS PLUGIN > Roles
 
-<iframe src='//gifs.com/embed/K8YLmM' frameborder='0' scrolling='no' width='800px' height='600px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
+<video width="800" height="600" controls>
+  <source src="https://user-images.githubusercontent.com/191412/138390972-c558b850-b8d3-4acb-b9f3-058649826429.mp4" type="video/mp4">  
+Your browser does not support the video tag.
+</video>
+
+
 
 4. Editar a role **Public**
 5. Ativar as permissões conforme tabelas abaixo:
