@@ -19,3 +19,28 @@
 |Harbor|https://registry-dhuo.br.engineering|
 |Konga|https://konga-dhuo.br.engineering|
 |Grafana|https://dhuo-observability.br.engineering|
+
+
+
+
+
+
+
+# Subindo ambientes DHUO local
+
+::: tip
+
+ Extraído do nosso primeiro Tals com Lucas
+:::
+
+1. Dar o clone no seguinte repositório
+[API LOCAL RUNNER](https://gitlab.engdb.com.br/apione/apione-local-runner)
+
+2. Rodar o comando: 
+
+
+``` sh
+docker-compose -f deploy/docker-compose.yml up -d
+```
+_O dockerCompose está na versão 1.29.2_
+
