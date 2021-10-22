@@ -26,11 +26,11 @@
 
 
 
-# Subindo ambientes DHUO local
+## Subindo ambientes DHUO local
 
 ::: tip
 
- Extraído do nosso primeiro Tals com Lucas
+ Extraído do nosso primeiro Talks com Lucas
 :::
 
 1. Dar o clone no seguinte repositório
