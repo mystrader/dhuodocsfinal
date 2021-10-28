@@ -1,2 +1,2 @@
-import "E:\\WORK\\ENGINEERING\\PROJETOS\\@DOCS\\docsdhuofinal\\docs\\node_modules\\@vuepress\\plugin-nprogress\\enhanceAppFile.js"
+import "/workspace/dhuodocsfinal/node_modules/@vuepress/plugin-nprogress/enhanceAppFile.js"
 export default {}

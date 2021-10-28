@@ -1,1 +1,1 @@
-export { default } from "E:\\WORK\\ENGINEERING\\PROJETOS\\@DOCS\\docsdhuofinal\\docs\\src\\.vuepress\\enhanceApp.js"
+export { default } from "/workspace/dhuodocsfinal/src/.vuepress/enhanceApp.js"

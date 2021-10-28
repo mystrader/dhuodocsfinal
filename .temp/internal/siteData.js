@@ -56,39 +56,16 @@ export const siteData = {
       },
       "regularPath": "/en/",
       "relativePath": "en/index.md",
-      "key": "v-c4c29ca6",
+      "key": "v-5486c160",
       "path": "/en/",
-      "lastUpdated": "10/22/2021, 10:10:25 AM"
-    },
-    {
-      "title": "Config",
-      "frontmatter": {
-        "sidebar": "auto"
-      },
-      "regularPath": "/en/links/",
-      "relativePath": "en/links/README.md",
-      "key": "v-b69bc644",
-      "path": "/en/links/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "foo",
-          "slug": "foo"
-        },
-        {
-          "level": 2,
-          "title": "bar",
-          "slug": "bar"
-        }
-      ],
-      "lastUpdated": "10/22/2021, 10:10:25 AM"
+      "lastUpdated": "10/22/2021, 1:10:25 PM"
     },
     {
       "title": "Ambientes dhuo",
       "frontmatter": {},
       "regularPath": "/en/links/ambientesdhuo.html",
       "relativePath": "en/links/ambientesdhuo.md",
-      "key": "v-12c1382e",
+      "key": "v-a92236a2",
       "path": "/en/links/ambientesdhuo.html",
       "headers": [
         {
@@ -97,110 +74,14 @@ export const siteData = {
           "slug": "ferramentas"
         }
       ],
-      "lastUpdated": "10/22/2021, 10:10:25 AM"
-    },
-    {
-      "title": "Instalação On Premise",
-      "frontmatter": {},
-      "regularPath": "/en/manual/",
-      "relativePath": "en/manual/README.md",
-      "key": "v-7173f7e4",
-      "path": "/en/manual/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Introdução 🎉",
-          "slug": "introducao"
-        },
-        {
-          "level": 2,
-          "title": "Módulos e versões",
-          "slug": "modulos-e-versoes"
-        },
-        {
-          "level": 2,
-          "title": "Repositórios e acessos",
-          "slug": "repositorios-e-acessos"
-        },
-        {
-          "level": 2,
-          "title": "Pré-requisitos",
-          "slug": "pre-requisitos"
-        },
-        {
-          "level": 3,
-          "title": "Infraestrutura",
-          "slug": "infraestrutura"
-        },
-        {
-          "level": 3,
-          "title": "Ferramentas",
-          "slug": "ferramentas"
-        },
-        {
-          "level": 3,
-          "title": "Endereços de domínio",
-          "slug": "enderecos-de-dominio"
-        },
-        {
-          "level": 3,
-          "title": "Google storage buckets",
-          "slug": "google-storage-buckets"
-        },
-        {
-          "level": 3,
-          "title": "Google reCAPTCHA",
-          "slug": "google-recaptcha"
-        },
-        {
-          "level": 2,
-          "title": "Azure AD B2C",
-          "slug": "azure-ad-b2c"
-        },
-        {
-          "level": 2,
-          "title": "Instalação dhuo",
-          "slug": "instalacao-dhuo"
-        },
-        {
-          "level": 3,
-          "title": "Back-ends",
-          "slug": "back-ends"
-        },
-        {
-          "level": 3,
-          "title": "Front-ends",
-          "slug": "front-ends"
-        },
-        {
-          "level": 3,
-          "title": "CMS (dhuo-strapi)",
-          "slug": "cms-dhuo-strapi"
-        },
-        {
-          "level": 3,
-          "title": "Kong (back-end gateway)",
-          "slug": "kong-back-end-gateway"
-        },
-        {
-          "level": 3,
-          "title": "Setup strapi",
-          "slug": "setup-strapi"
-        },
-        {
-          "level": 3,
-          "title": "Setup mongodb",
-          "slug": "setup-mongodb"
-        }
-      ],
-      "lastUpdated": "10/22/2021, 10:10:25 AM"
+      "lastUpdated": "10/22/2021, 1:10:25 PM"
     },
     {
       "title": "AD B2C",
       "frontmatter": {},
       "regularPath": "/en/manual/adb2c.html",
       "relativePath": "en/manual/adb2c.md",
-      "key": "v-0ccfe4b3",
+      "key": "v-a0b2bf1a",
       "path": "/en/manual/adb2c.html",
       "headers": [
         {
@@ -244,14 +125,14 @@ export const siteData = {
           "slug": "ad-b2c-custom-ui-adb2c-login-estatico"
         }
       ],
-      "lastUpdated": "10/22/2021, 10:10:25 AM"
+      "lastUpdated": "10/22/2021, 1:10:25 PM"
     },
     {
       "title": "AD B2C - Provisionamento Azure",
       "frontmatter": {},
       "regularPath": "/en/manual/adb2cazure.html",
       "relativePath": "en/manual/adb2cazure.md",
-      "key": "v-a48b3e8a",
+      "key": "v-11ad270a",
       "path": "/en/manual/adb2cazure.html",
       "headers": [
         {
@@ -395,7 +276,7 @@ export const siteData = {
           "slug": "groups"
         }
       ],
-      "lastUpdated": "10/22/2021, 10:10:25 AM"
+      "lastUpdated": "10/22/2021, 1:10:25 PM"
     },
     {
       "title": "DhuoDocs",
@@ -424,9 +305,35 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "index.md",
-      "key": "v-66b5daec",
+      "key": "v-03065168",
       "path": "/",
-      "lastUpdated": "22/10/2021 10:10:25"
+      "lastUpdated": "22/10/2021 13:10:25"
+    },
+    {
+      "title": "Ambientes dhuo",
+      "frontmatter": {},
+      "regularPath": "/links/ambientesdhuo.html",
+      "relativePath": "links/ambientesdhuo.md",
+      "key": "v-385943da",
+      "path": "/links/ambientesdhuo.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "PROD, DEV e RC",
+          "slug": "prod-dev-e-rc"
+        },
+        {
+          "level": 2,
+          "title": "Ferramentas",
+          "slug": "ferramentas"
+        },
+        {
+          "level": 2,
+          "title": "Subindo ambientes DHUO local",
+          "slug": "subindo-ambientes-dhuo-local"
+        }
+      ],
+      "lastUpdated": "22/10/2021 18:03:13"
     },
     {
       "title": "Lista de Links",
@@ -435,7 +342,7 @@ export const siteData = {
       },
       "regularPath": "/links/",
       "relativePath": "links/README.md",
-      "key": "v-2d01fbfe",
+      "key": "v-7b411b74",
       "path": "/links/",
       "headers": [
         {
@@ -454,56 +361,133 @@ export const siteData = {
           "slug": "participacao-do-grupo-em-lives"
         }
       ],
-      "lastUpdated": "22/10/2021 10:10:25"
+      "lastUpdated": "22/10/2021 13:22:40"
     },
     {
-      "title": "Ambientes dhuo",
-      "frontmatter": {},
-      "regularPath": "/links/ambientesdhuo.html",
-      "relativePath": "links/ambientesdhuo.md",
-      "key": "v-49970026",
-      "path": "/links/ambientesdhuo.html",
+      "title": "Config",
+      "frontmatter": {
+        "sidebar": "auto"
+      },
+      "regularPath": "/en/links/",
+      "relativePath": "en/links/README.md",
+      "key": "v-c7888d50",
+      "path": "/en/links/",
       "headers": [
         {
           "level": 2,
-          "title": "PROD, DEV e RC",
-          "slug": "prod-dev-e-rc"
+          "title": "foo",
+          "slug": "foo"
         },
         {
           "level": 2,
+          "title": "bar",
+          "slug": "bar"
+        }
+      ],
+      "lastUpdated": "10/22/2021, 1:10:25 PM"
+    },
+    {
+      "title": "Instalação On Premise",
+      "frontmatter": {},
+      "regularPath": "/en/manual/",
+      "relativePath": "en/manual/README.md",
+      "key": "v-7179104e",
+      "path": "/en/manual/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Introdução 🎉",
+          "slug": "introducao"
+        },
+        {
+          "level": 2,
+          "title": "Módulos e versões",
+          "slug": "modulos-e-versoes"
+        },
+        {
+          "level": 2,
+          "title": "Repositórios e acessos",
+          "slug": "repositorios-e-acessos"
+        },
+        {
+          "level": 2,
+          "title": "Pré-requisitos",
+          "slug": "pre-requisitos"
+        },
+        {
+          "level": 3,
+          "title": "Infraestrutura",
+          "slug": "infraestrutura"
+        },
+        {
+          "level": 3,
           "title": "Ferramentas",
           "slug": "ferramentas"
-        }
-      ],
-      "lastUpdated": "22/10/2021 10:10:25"
-    },
-    {
-      "title": "O que é esse tal de VUEPRESS ?",
-      "frontmatter": {},
-      "regularPath": "/links/sobrevuepress.html",
-      "relativePath": "links/sobrevuepress.md",
-      "key": "v-6a737466",
-      "path": "/links/sobrevuepress.html",
-      "headers": [
+        },
         {
-          "level": 2,
-          "title": "Vuepress: Surgimento",
-          "slug": "vuepress-surgimento"
+          "level": 3,
+          "title": "Endereços de domínio",
+          "slug": "enderecos-de-dominio"
+        },
+        {
+          "level": 3,
+          "title": "Google storage buckets",
+          "slug": "google-storage-buckets"
+        },
+        {
+          "level": 3,
+          "title": "Google reCAPTCHA",
+          "slug": "google-recaptcha"
         },
         {
           "level": 2,
-          "title": "Sites estáticos (Prerender)",
-          "slug": "sites-estaticos-prerender"
+          "title": "Azure AD B2C",
+          "slug": "azure-ad-b2c"
+        },
+        {
+          "level": 2,
+          "title": "Instalação dhuo",
+          "slug": "instalacao-dhuo"
+        },
+        {
+          "level": 3,
+          "title": "Back-ends",
+          "slug": "back-ends"
+        },
+        {
+          "level": 3,
+          "title": "Front-ends",
+          "slug": "front-ends"
+        },
+        {
+          "level": 3,
+          "title": "CMS (dhuo-strapi)",
+          "slug": "cms-dhuo-strapi"
+        },
+        {
+          "level": 3,
+          "title": "Kong (back-end gateway)",
+          "slug": "kong-back-end-gateway"
+        },
+        {
+          "level": 3,
+          "title": "Setup strapi",
+          "slug": "setup-strapi"
+        },
+        {
+          "level": 3,
+          "title": "Setup mongodb",
+          "slug": "setup-mongodb"
         }
       ],
-      "lastUpdated": "22/10/2021 10:10:25"
+      "lastUpdated": "10/22/2021, 1:10:25 PM"
     },
     {
       "title": "Instalação On Premise",
       "frontmatter": {},
       "regularPath": "/manual/",
       "relativePath": "manual/README.md",
-      "key": "v-542a63cb",
+      "key": "v-171a5bf8",
       "path": "/manual/",
       "headers": [
         {
@@ -592,14 +576,14 @@ export const siteData = {
           "slug": "setup-mongodb"
         }
       ],
-      "lastUpdated": "22/10/2021 10:10:25"
+      "lastUpdated": "22/10/2021 13:10:25"
     },
     {
       "title": "AD B2C",
       "frontmatter": {},
       "regularPath": "/manual/adb2c.html",
       "relativePath": "manual/adb2c.md",
-      "key": "v-0d10853e",
+      "key": "v-3d806fb1",
       "path": "/manual/adb2c.html",
       "headers": [
         {
@@ -643,14 +627,35 @@ export const siteData = {
           "slug": "ad-b2c-custom-ui-adb2c-login-estatico"
         }
       ],
-      "lastUpdated": "22/10/2021 10:10:25"
+      "lastUpdated": "22/10/2021 13:10:25"
+    },
+    {
+      "title": "O que é esse tal de VUEPRESS ?",
+      "frontmatter": {},
+      "regularPath": "/links/sobrevuepress.html",
+      "relativePath": "links/sobrevuepress.md",
+      "key": "v-04afd253",
+      "path": "/links/sobrevuepress.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Vuepress: Surgimento",
+          "slug": "vuepress-surgimento"
+        },
+        {
+          "level": 2,
+          "title": "Sites estáticos (Prerender)",
+          "slug": "sites-estaticos-prerender"
+        }
+      ],
+      "lastUpdated": "22/10/2021 13:10:25"
     },
     {
       "title": "AD B2C - Provisionamento Azure",
       "frontmatter": {},
       "regularPath": "/manual/adb2cazure.html",
       "relativePath": "manual/adb2cazure.md",
-      "key": "v-ea3b2dc0",
+      "key": "v-2ab21fd3",
       "path": "/manual/adb2cazure.html",
       "headers": [
         {
@@ -794,7 +799,7 @@ export const siteData = {
           "slug": "groups"
         }
       ],
-      "lastUpdated": "22/10/2021 10:10:25"
+      "lastUpdated": "22/10/2021 13:10:25"
     }
   ],
   "themeConfig": {
